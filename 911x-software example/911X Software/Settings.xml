@@ -1,0 +1,104 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>20.0f1</Version>
+<Cluster>
+<Name>Settings in</Name>
+<NumElts>7</NumElts>
+<Cluster>
+<Name>Hardware Configuration</Name>
+<NumElts>7</NumElts>
+<Refnum>
+<Name>VISA resource name</Name>
+<RefKind>VISA</RefKind>
+<Val>USB0::0xFFFF::0x9116::602078010687320001::INSTR</Val>
+</Refnum>
+<U32>
+<Name>Baud Rate</Name>
+<Val>0</Val>
+</U32>
+<Boolean>
+<Name>Reset on Connect</Name>
+<Val>0</Val>
+</Boolean>
+<DBL>
+<Name>Log Interval (s)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Refnum>
+<Name>Voltage</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x3330003C</Val>
+</Refnum>
+<Refnum>
+<Name>Current</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x3390006E</Val>
+</Refnum>
+<Refnum>
+<Name>Output Control</Name>
+<RefKind>LV Object</RefKind>
+<RefType>Control</RefType>
+<Val>0x33A00046</Val>
+</Refnum>
+</Cluster>
+<Cluster>
+<Name>Logging Configuration</Name>
+<NumElts>6</NumElts>
+<Path>
+<Name>Log File Base Path</Name>
+<Val>C:\Users\ARamirez.BK1\Documents\LabVIEW Data\Logged Data.tdms</Val>
+</Path>
+<String>
+<Name>*IDN?</Name>
+<Val></Val>
+</String>
+<Refnum>
+<Name>File Path Ref</Name>
+<RefKind>Byte Stream File</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+<DBL>
+<Name>Log Interval (s)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Enable TimeStamp</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Append File</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<DBL>
+<Name>OVP Limit</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Current Limit</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>OVP State</Name>
+<Val>0</Val>
+</Boolean>
+<DBL>
+<Name>OVP Delay</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<Cluster>
+<Name>Voltage Limit</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Numeric</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+</LVData>
